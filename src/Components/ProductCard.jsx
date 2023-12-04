@@ -71,10 +71,14 @@ function ProductCard({Product}) {
                                 </div> */}
                                 <div
                                 onClick={e=>onAddToCart(e,products)} 
-                                className="text-center"><a className="btn btn-outline-dark mt-auto" href="#"><i class="fa-solid fa-cart-shopping" style={{color: "#5b6371"}}></i> {' '}Add to Cart</a></div>
+                                className="text-center"><a className="btn btn-outline-dark mt-auto" href="#"><i class="fa-solid fa-cart-shopping" style={{color: "#5b6371"}}></i> {' '}
+                                {/* Add to Cart */}
+                                </a></div>
                                 <div 
                                 onClick={e=>onAddToWishlist(e,products)} 
-                                className="text-center"><a className="btn btn-outline-dark mt-auto" href="#"> <i class="fa-solid fa-heart" style={{color: "#5b6371"}}></i> Add to Wishlist</a>
+                                className="text-center"><a className="btn btn-outline-dark mt-auto" href="#"> <i class="fa-solid fa-heart" style={{color: "#5b6371"}}></i> 
+                                {/* Add to Wishlist */}
+                                </a>
                                 </div>
                             </div>
                         </div>
